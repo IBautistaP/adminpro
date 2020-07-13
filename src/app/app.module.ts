@@ -13,6 +13,9 @@ import { APP_ROUTES } from './app.route';
 // Modulos
 import { PagesModule } from './pages/pages.module';
 
+// Sevicios
+import { ServiceModule } from './services/service.module';
+
 @NgModule({
   declarations: [AppComponent, LoginComponent, RegisterComponent],
   imports: [
@@ -20,6 +23,7 @@ import { PagesModule } from './pages/pages.module';
     AppRoutingModule,
     APP_ROUTES,
     PagesModule,
+    ServiceModule,
     // FormsModule,
   ],
   providers: [],
